@@ -14,6 +14,14 @@ const app = express();
 // middleware setup
 
 app.use(express.json());
+
+const corsOptions = {
+    origin: 'https://remind-me-steel.vercel.app/', 
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
+    credentials: true
+};
+
+
 app.use(cors('*')); // Enable CORS for all routes
 
 // DATABASE CONNECTION + APP STARTUP// 
