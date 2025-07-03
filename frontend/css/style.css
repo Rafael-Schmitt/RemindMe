@@ -57,7 +57,7 @@
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
-      background-image: url(/frontend/images/background\ image.jpg);
+      background-image: url(../images/background\ image.jpg);
       background-blend-mode: overlay;
       background-color: gray;
     }
